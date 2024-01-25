@@ -3,8 +3,15 @@ pipeline
   agent any
   stages{
     stage(checkout){
+steps
+{
+echo 'checking repo'
     }
     stage(build){
+steps
+{
+echo 'building'
+    }
     }
     stage(test){
     }

@@ -1,0 +1,25 @@
+pipeline
+{
+  agent any
+  stages{
+    stage(checkout){
+    }
+    stage(build){
+    }
+    stage(test){
+    }
+    stage(scan){
+    }
+    stage(Artifactory){
+    }
+    stage(dev){
+    }
+    stage(test){
+    }
+    stage(staging){
+    }
+    stage(prod){
+    }
+}
+}
+

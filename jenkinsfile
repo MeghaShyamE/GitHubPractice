@@ -2,30 +2,30 @@ pipeline
 {
   agent any
   stages{
-    stage(checkout){
+    stage('checkout'){
 steps
 {
 echo 'checking repo'
     }
-    stage(build){
+    stage('build'){
 steps
 {
 echo 'building'
     }
     }
-    stage(test){
+    stage('test'){
     }
-    stage(scan){
+    stage('scan'){
     }
-    stage(Artifactory){
+    stage('Artifactory'){
     }
-    stage(dev){
+    stage('dev'){
     }
-    stage(test){
+    stage('test'){
     }
-    stage(staging){
+    stage('staging'){
     }
-    stage(prod){
+    stage('prod'){
     }
 }
 }
